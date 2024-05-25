@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--スクリプト読み込み-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/flickity.css" />
+    <link rel="stylesheet" href="../css/fullscreen.css" />
+    <script src="../js/flickity.pkgd.js"></script>
+    <!--Icon-->
+    <link
+      rel="shortcut icon"
+      href="../images/icon/spectre.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <!--タイトル-->
+    <title>F11 Other</title>
+  </head>
+  <body>
+    <!-- タブ -->
+    <input
+      id="tab-home"
+      type="radio"
+      role="tab"
+      name="tab-radio"
+      class="tab-input"
+      value="index.html"
+      onclick="location.href=this.value"
+    />
+    <h2 class="tab-label-heading selected">
+      <label class="tab-label" for="tab-home">Home</label>
+    </h2>
+    <input
+      id="tab-production"
+      type="radio"
+      role="tab"
+      name="tab-radio"
+      class="tab-input"
+      value="production.html"
+      onclick="location.href=this.value"
+    />
+    <h2 class="tab-label-heading">
+      <label class="tab-label" for="tab-production">Production</label>
+    </h2>
+    <input
+      id="tab-other"
+      type="radio"
+      role="tab"
+      name="tab-radio"
+      class="tab-input"
+      checked=""
+      value="other.html"
+      onclick="location.href=this.value"
+    />
+    <h2 class="tab-label-heading">
+      <label class="tab-label" for="tab-other">Other</label>
+    </h2>
+    <!-- 中身 -->
+    <div class="tab-panel panel-other" role="tabpanel">
+      <div class="memories">
+        <h2>Pictures</h2>
+        <p></p>
+        <div
+          class="carousel"
+          data-flickity='{"fullscreen": true,"contain": true,"autoPlay": true }'
+        >
+          <div class="carousel-cell"><img src="../images/memories/DSC02547.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02570.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02581.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02584.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02593.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02607.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02858.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02859.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02861.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02864.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02866.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/DSC02868.JPG" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230225_054300430~2.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230311_042412696.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/20230519_151901.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230824_155916107.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230824_161536789.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230824_161615008.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230826_014128022.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230827_033614410.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230827_033618952.MP.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230828_053033813.MP.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230828_111034070.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230828_115741228.MP.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20230828_125347121.MP.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20240403_114530248.jpg" /></div>
+          <div class="carousel-cell"><img src="../images/memories/PXL_20240406_112239090.jpg" /></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
