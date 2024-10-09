@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 html, body {
   background-color: rgb(233, 232, 232);
   width: 100%;
-  font-family: 'Caveat', cursive;
+  /* font-family: 'Caveat','メイリオ', cursive; */
+  font-family:
+    'Itim',
+    'メイリオ',
+    'Arial',
+    sans-serif;
   font-weight: bold;
 }
 /* image */
