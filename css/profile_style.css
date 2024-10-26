@@ -1,0 +1,93 @@
+/* image */
+.f11_image {
+  display: flex;
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;
+  height: 180px;
+  margin: 1%;
+}
+/* sns */
+.sns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  margin-top: 20px;
+}
+.sns-icon {
+    width:  20px;
+    height: 20px;
+    margin: 10px;
+}
+
+/* home */
+.home {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100vh;
+}
+.profile {
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.profile-element {
+  display: block;
+  float: left;
+  margin: 10px;
+  /* width:  560px; */
+  /* test */
+  /* background-color: rgb(252, 183, 183); */
+}
+
+.timeline-element {
+  display: block;
+  float: left;
+  margin: 10px;
+  width:  600px;
+  /* test */
+  /* background-color: rgb(255, 171, 171); */
+}
+
+/* timeline */
+.timeline {
+  list-style: none;
+}
+.timeline > li {
+  margin-bottom: 60px;
+}
+
+@media ( min-width : 640px ){
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    /* width: 66%; */
+    width: 75%;
+    float: left;
+    border-left: 3px #727272 solid;
+    padding-left: 20px;
+    /* test */
+    /* background-color: rgb(247, 126, 126); */
+  }
+  .timeline-content:before {
+    content: '';
+    /* width: 12px; */
+    width: 12px;
+    height: 12px;
+    background: #525252;
+    position: absolute;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
+  }
+}

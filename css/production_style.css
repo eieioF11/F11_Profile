@@ -1,0 +1,21 @@
+/* production */
+.production {
+  display: flex;
+  float: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 20px;
+  width: 100%;
+}
+.production-element {
+  /* background-color: rgb(238, 238, 238); */
+  display: block;
+  float: left;
+  align-items: center;
+	padding: 0.5em 1em;
+	margin: 1%;
+  width:  500px;
+  height: 100%;
+}

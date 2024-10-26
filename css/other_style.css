@@ -1,0 +1,27 @@
+
+.publications {
+}
+.publications-element {
+  margin-left: 1rem;
+}
+.publication {
+  margin-left: 1rem;
+  font-family:
+  'メイリオ',
+  'Arial';
+  font-size:16px;
+  line-height:5px;
+  font-weight: normal;
+}
+.pub-title {
+  font-weight: bold;
+}
+.pub-author {
+  font-weight: normal;
+}
+.pub-info {
+  font-weight: normal;
+}
+
+.memories {
+}
