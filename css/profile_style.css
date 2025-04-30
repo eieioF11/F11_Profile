@@ -2,8 +2,8 @@
 .f11_image {
   display: flex;
   border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-  width:  180px;
-  height: 180px;
+  width:  200px;
+  height: 200px;
   margin: 1%;
 }
 /* sns */
